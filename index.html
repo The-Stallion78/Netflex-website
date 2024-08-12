@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflex website</title>
+
     <!-- Tailwind CDN Link -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Netflex website</title>
-</head>
-<body> 
-    <p class="px-5 mt-5 text-blue-500 text-bold gap-5 leading-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa exercitationembr <br> voluptatibus? Unde non molestiae amet adipisci mollitia ipsa nisi. Nisi tempora doloremque ab corporis eum molestiae numquam a repudiandae.</p>
-                            <!-- First Section Start -->
+  </head>
+  <body>
     
-                            <!-- First Section End -->
-                             
+                                <!-- Banner Section Start -->
+    <section
+      class="relative w-[100%] h-[100vh] bg-[url('/Images/Netflix-Background.jpg')] bg-center bg-cover"
+    >
+                <!-- Overlay Effect -->
+      <div class="absolute inset-0 bg-black/70 z-10"></div>
 
-                            <!-- Second Section Start -->
-    
-                            <!-- Second Section End -->
+                <!-- Content -->
+      <div class="relative z-20 max-w-[1170px] mx-auto h-[100vh]">
+        <header class="relative">
+          <!-- Navigation Bar -->
+          <div class="grid flex-row justify-between sm:grid-cols-2 sm:grid-col-2-[30%_auto] px-10 pt-8 items-center">
+            <figure class="sm:w-[148px] w-[100%] relative overflow-hidden">
+              <img src="/Images/Netflix-symbol.jpg" alt="Netflix Logo" class="w-full h-auto rounded-lg transition duration-300 ease-in-out transform hover:scale-105 hover:brightness-75"/>
+            </figure>
 
+            <div class="flex flex-col sm:flex-row sm:justify-end space-y-4 sm:space-y-0 sm:space-x-4 mt-3">
+                <div class="w-full sm:w-auto sm:flex items-center justify-center sm:justify-end">
+                  <select class="w-full sm:w-30 h-10 text-white border-2 border-gray-400 hover:border-red-500 rounded-md bg-transparent px-2">
+                    <option value="">English</option>
+                    <option value="">Urdu</option>
+                    <option value="">Pushto</option>
+                  </select>
+                </div>
+                <div class="w-full sm:w-auto sm:flex items-center justify-center sm:justify-end">
+                  <button class="w-full sm:w-20 h-10 text-white hover:border-2 hover:border-red-500 rounded-md hover:font-bold hover:bg-transparent bg-red-500">Sign In</button>
+                </div>
+              </div>
+              
+          </div>
+        </header>
+      </div>
+    </section>
 
-                            <!-- Third Section End -->
-    
-                            <!-- This Section Start -->
+    <!-- Banner Section End -->
 
+    <!-- Second Section Start -->
 
-                            <!--Fourth  Section Start -->
-    
-                            <!--Fourth Section End -->
+    <!-- Second Section End -->
 
+    <!-- Third Section End -->
 
-                            <!--Fifth  Section Start -->
-    
-                            <!--Fifth  Section End -->
+    <!-- This Section Start -->
 
+    <!--Fourth  Section Start -->
 
+    <!--Fourth Section End -->
 
+    <!--Fifth  Section Start -->
 
-
-
-
-
-
+    <!--Fifth  Section End -->
 
     <script src="script.js/"></script>
-</body>
+  </body>
 </html>
