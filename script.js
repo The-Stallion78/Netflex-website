@@ -1,0 +1,1 @@
+let allQuestions = document.querySelectorAll("fAQuestions");

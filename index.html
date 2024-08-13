@@ -117,14 +117,22 @@
             >
               Enjoy on your TV
             </h2>
-            <h4 class="py-2 text-[12px] text-center sm:text-[20px] md:text-[25px] text-white text-lg">
+            <h4
+              class="py-2 text-[12px] text-center sm:text-[20px] md:text-[25px] text-white text-lg"
+            >
               Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
               Blu-ray players,<br />and more.
             </h4>
           </div>
           <figure class="relative flex justify-center items-center">
-            <video class="absolute w-[80%] sm:bottom-[20%] sm:left-[10%] z-[1]">
-              <source src="./Images/video-tv-0819.m4v" />
+            <video
+              class="absolute w-[80%] sm:bottom-[20%] sm:left-[10%] z-[1]"
+              controls
+              autoplay
+              loop
+              muted
+            >
+              <source src="./Images/video-tv-0819.m4v" type="video/mp4" />
             </video>
             <img
               class="relative w-full z-[1]"
@@ -139,12 +147,12 @@
 
     <!-- ================== Download Section Start =================== -->
     <section
-      class="w-[100%] bg-black py-[50px] sm:py-[100px] py-[20px] border-t-[8px] border-t-[rgb(35,35,35)]"
+      class="w-[100%] bg-black py-[50px] sm:py-[50px] py-[20px] border-t-[8px] border-t-[rgb(35,35,35)]"
     >
       <div class="max-w-[1170px] py-2 mx-auto px-8 sm:px-10 items-center">
         <div class="grid grid-cols-1 sm:grid-cols-2">
           <!-- Figure portion -->
-          <figure class="relative h-full sm:order-1 order-2">
+          <figure class="relative h-full sm:order-1 order-2 sm:mb-20">
             <!-- Main Image -->
             <img
               src="./Images/mobile-0819.jpg"
@@ -154,10 +162,10 @@
 
             <!-- Overlay Content -->
             <div
-              class="pb-[20px] border-2 border-gray-500 rounded-md h-[110px] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 flex items-center justify-center p-4 bg-black bg-opacity-50 w-[80%] sm:w-[60%]"
+              class="pb-[20px] h-10 sm:mb-20 mb-5 border-2 border-gray-500 rounded-md h-[110px] absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 flex items-center justify-center p-4 bg-black bg-opacity-50 w-[80%] sm:w-[60%]"
             >
               <!-- Image Container -->
-              <div class="flex-shrink-0">
+              <div class="flex-shrink-0 pl-10 sm:pl-1">
                 <img
                   alt="Stranger Things"
                   src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
@@ -179,7 +187,7 @@
           </figure>
 
           <div
-            class="flex flex-col justify-center sm:justify-start sm:items-start py-6 order-1 sm:order-2"
+            class="flex flex-col justify-center sm:mt-10 sm:justify-start sm:items-start py-6 order-1 sm:order-2"
           >
             <h2
               class="text-[20px] sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center"
@@ -200,28 +208,29 @@
     </section>
     <!-- ================== Download Section End =================== -->
 
-
-
     <!-- ================== Watch Everywhere Section Start =================== -->
     <section
-      class="w-[100%] bg-black sm:py-[100px] py-[20px] border-t-[8px] border-t-[rgb(35,35,35)]">
+      class="w-[100%] bg-black sm:py-[100px] py-[20px] border-t-[8px] border-t-[rgb(35,35,35)]"
+    >
       <div class="max-w-[1170px] py-2 mx-auto px-8 items-center sm:px-10">
         <div class="grid grid-cols-1 sm:grid-cols-2">
           <div class="flex flex-col sm:justify-center justify-center py-10">
-            <h2 class="text-[20px] sm:pl-14 sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center sm:text-start">
+            <h2
+              class="text-[20px] sm:pl-14 sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center sm:text-start"
+            >
               Watch everywhere
             </h2>
-            <h4 class="py-2 text-[12px] sm:pl-14 text-center sm:text-start sm:text-[20px] md:text-[25px] text-white text-lg">
-              Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+            <h4
+              class="py-2 text-[12px] sm:pl-14 text-center sm:text-start sm:text-[20px] md:text-[25px] text-white text-lg"
+            >
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
             </h4>
           </div>
-          
         </div>
       </div>
     </section>
     <!-- ================== Watch Everywhere Section End =================== -->
-
-
 
     <!-- ================== Kids Section Start =================== -->
     <section
@@ -229,7 +238,6 @@
     >
       <div class="max-w-[1170px] py-2 mx-auto px-8 sm:px-10 items-center">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-
           <!-- Figure portion -->
           <figure class="relative h-full sm:order-1 order-2">
             <img
@@ -240,15 +248,22 @@
           </figure>
 
           <div
-            class="flex flex-col justify-center sm:justify-start sm:items-start py-6 order-1 sm:order-2 sm:mt-5">
+            class="flex flex-col justify-center sm:justify-start sm:items-start py-6 order-1 sm:order-2 sm:mt-5"
+          >
             <h2
-              class="text-[20px] sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center"> Create profiles for<br/><span
-                class="sm:inline-block sm:w-full sm:text-left text-center">kids</span>
+              class="text-[20px] sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center"
+            >
+              Create profiles for<br /><span
+                class="sm:inline-block sm:w-full sm:text-left text-center"
+                >kids</span
+              >
             </h2>
-            <h4 class="py-2 text-[12px] text-center sm:text-start sm:text-[20px] md:text-[25px] text-white text-lg">
-              Send kids on adventures with their favorite characters in a space made just for them—<br>free with your membership.
+            <h4
+              class="py-2 text-[12px] text-center sm:text-start sm:text-[20px] md:text-[25px] text-white text-lg"
+            >
+              Send kids on adventures with their favorite characters in a space
+              made just for them—<br />free with your membership.
             </h4>
-            
           </div>
         </div>
       </div>
@@ -257,8 +272,134 @@
 
     <!-- ================== FAQs Section Start =================== -->
     <section
-      class="w-[100%] bg-black sm:py-[100px] py-[50px] border-t-[8px] border-t-[rgb(35,35,35)]"
-    ></section>
+      class="w-[100%] bg-black sm:py-[100px] sm:px-10 py-[20px] border-t-[8px] border-t-[rgb(35,35,35)]"
+    >
+      <div class="max-w-[1170px] py-2 mx-auto px-8 items-center sm:px-10">
+        <h2
+          class="text-[20px] font-extrabold sm:justify-center justify-center sm:text-[35px] md:text-[45px] lg:text-[50px] text-white font-bold text-center"
+        >
+          Frequently Asked Questions
+        </h2>
+
+        <!-- FAQs -->
+        <div class="py-[30px] text-white">
+          <!-- Question 1 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                What is Netflix?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px]">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added<br>every week!
+              </p>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                How much does Netflix cost?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from Rs 250 to Rs 1,100 a month. No extra costs, no contracts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                Where can I watch?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+              </p>
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+              </p>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                How do I cancle?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+              </p>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                What can I watch on Netflix?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+              </p>
+              </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="bg-[rgb(45,45,45)] p-[20px] mb-[15px]">
+            <div class="py-0 flex justify-between items-center hover:bg-[rgb(78,78,78)] duration-400 cursor-pointer fAQuestions">
+              <h3 class=" text-[12px] sm:text-[20px] md:text-[25px] text-lg">
+                Is Netflix good for kids?
+              </h3>
+              <span class="text-[25px] sm:text-[50px] md:text-[65px] font-light">+</span>
+            </div>
+            
+            <div class="text-lg scale-y-0 h-[0px] origin-top border-t-2 border-black">
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+              </p>
+              <p class="py-2 text-[12px] text-start sm:text-[18px] md:text-[22px] text-lg">
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.
+              </p>
+            </div>
+          </div>
+
+          <!-- FAQs Portion End -->
+        </div>
+        
+
+        <!-- Form Section -->
+      </div>
+    </section>
     <!-- ================== FAQs Section End =================== -->
 
     <script src="script.js/"></script>
